@@ -21,3 +21,4 @@ Img 2: RANSAC and OLS comparision
 Img 3: Screenshot from tool
 [IMG3](https://github.com/paniks/dedicated-medical-diagnostic-algorithms/tree/master/RANSAC%20method/images/img3.png)
 
+ENG data: http://www.physionet.org/physiobank/database/#neuro
