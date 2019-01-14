@@ -24,7 +24,7 @@ for i=1:length(data_array)
     plot(x, x*OLS_coeff(2)+OLS_coeff(1), 'Linewidth',1)
     grid on
     txt1 = ['y = (' num2str(OLS_coeff(2)) ')x + (' num2str(OLS_coeff(1)) ')'];
-    legend({'Chmura danych', strcat('Dopasowanie metod¹ OLS', ' ', txt1) }, 'Location', 'southoutside')
+    legend({'Data points', strcat('OLS method estimation', ' ', txt1) }, 'Location', 'southoutside')
     savedir = strcat('./report/data', int2str(i), '_OLS.png');
     saveas(fig, savedir)
     close(fig)
@@ -53,9 +53,9 @@ for i=1:length(data_array)
     grid on
     txt1 = [' y = (' num2str(RANSAC_coeff(2)) ')x + (' num2str(RANSAC_coeff(1)) ')'];
     txt2 = [' y = (' num2str(OLS_coeff(2)) ')x + (' num2str(OLS_coeff(1)) ')'];
-    legend({'Chmura danych', ...
-            strcat('Dopasowanie metod¹ RANSAC',' ', txt1), ... 
-            strcat('Dopasowanie metod¹ OLS ',' ', txt2)}, 'Location', 'southoutside')
+    legend({'Data points', ...
+            strcat('RANSAC method estimation',' ', txt1), ... 
+            strcat('OLS method estimation',' ', txt2)}, 'Location', 'southoutside')
     savedir = strcat('./report/data', int2str(i), '_RANSAC.png');
     saveas(fig, savedir)
     close(fig)
@@ -76,8 +76,8 @@ hold on
 % works till press ESC
 [starts, ends] = mark_waves();
 title('')
-xlabel('Próbki')
-ylabel('Amplituda')
+xlabel('Samples')
+ylabel('Amplitude')
 
 ransac_metrics = zeros(size(2, length(starts))); 
 ols_metrics = zeros(size(2, length(starts)));
@@ -116,9 +116,9 @@ end
 
 close(f)
 
-legend({'Sygna³ ENG z zaznaczonymi falami wolnymi', ...
-        'Dopasowania metod¹ RANSAC', ... 
-        'Dopasowania metod¹ OLS'}, ...
+legend({'ENG signal', ...
+        'RANSAC method estimation', ... 
+        'OLS method estimation'}, ...
         'Location', 'southoutside')
 
 savedir = strcat('./report/eng_1_RANSAC.png');
