@@ -7,8 +7,8 @@ Img 1: First step of algorithm - bandpass filtering
 [![IMG1](/images/img1.png)]
 
 [![img](preview.png)](http://i.imgur.com/EyZZKAA.gif)
-Img 2: Next step is local maxima detection based on SWD. 
-[![IMG 2](/images/img2.png)]
+Img 2: Next step is local maxima detection based on SWD.  
+[![IMG 2](/images/img2.png)]((https://github.com/paniks/dedicated-medical-diagnostic-algorithms/tree/master/ABR%20waves%20detection/images/img2.png))
 
 There are two importatnt information:
 1. I, III and V waves occur at least 1 ms after each other,
