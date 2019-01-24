@@ -12,17 +12,17 @@ Pan Tompkins algorithm consists following steps:
 For R-peak selection stationary wavelet decomposition (SWD) based algorithm where used. 
 
 Img 1: Pan Tompkins algorithm results
-[IMG1](https://github.com/paniks/dedicated-medical-diagnostic-algorithms/tree/master/QRS%20detection/images/img1.png)
+![IMG1](./images/img1.png)
 
 Img 2: Pan Tompkins algorithm results on ECG signal
-[IMG2](https://github.com/paniks/dedicated-medical-diagnostic-algorithms/tree/master/QRS%20detection/images/img2.png)
+![IMG2](./images/img2.png)
 
 For QRS on/offsets another SWD based algorithm where implemented. Characteristic points that can be selected from the points of intersection of the wavelet with the Y axis are three points located in the neighborhood of the R-wave, the preceding point and the following, points pointing to the Q and S waves. The R point is known from the previous step. The visual results of the algorithm below.
 
 Img 3: SWD on QRS complex 
-[IMG3](https://github.com/paniks/dedicated-medical-diagnostic-algorithms/tree/master/QRS%20detection/images/img3.png)
+![IMG3](,/images/img3.png)
 
 Img 4: Algorithm results
-[IMG3](https://github.com/paniks/dedicated-medical-diagnostic-algorithms/tree/master/QRS%20detection/images/img4.png)
+![IMG4](./images/img4.png)
 
 ECG database: http://www.physionet.org/physiobank/database/#ecg
