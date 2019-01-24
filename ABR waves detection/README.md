@@ -4,9 +4,8 @@ Scheme of I, III and V waves detection algorithm is based on stationary wavelet 
 
 Img 1: First step of algorithm - bandpass filtering
 
-[![IMG1](/images/img1.png)]
+[![IMG1](./images/img1.png)]
 
-[![img](preview.png)](http://i.imgur.com/EyZZKAA.gif)
 Img 2: Next step is local maxima detection based on SWD.  
 [![IMG 2](/images/img2.png)]((https://github.com/paniks/dedicated-medical-diagnostic-algorithms/tree/master/ABR%20waves%20detection/images/img2.png))
 
