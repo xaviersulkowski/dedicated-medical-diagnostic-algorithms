@@ -13,12 +13,12 @@ RANSAC method consists of the following steps:
 Repo consist implementation of above algorithms. Furthermore there is tool implemented which allows load signal (eg. ENG signals) and select its part for RANSAC estimation. 
 
 Img 1: RANSAC and OLS comparision
-[IMG1](https://github.com/paniks/dedicated-medical-diagnostic-algorithms/tree/master/RANSAC%20method/images/img1.png)
+![IMG1](./images/img1.png)
 
 Img 2: RANSAC and OLS comparision
-[IMG2](https://github.com/paniks/dedicated-medical-diagnostic-algorithms/tree/master/RANSAC%20method/images/img2.png)
+![IMG2](./images/img2.png)
 
 Img 3: Screenshot from tool
-[IMG3](https://github.com/paniks/dedicated-medical-diagnostic-algorithms/tree/master/RANSAC%20method/images/img3.png)
+![IMG3](./images/img3.png)
 
 ENG data: http://www.physionet.org/physiobank/database/#neuro
