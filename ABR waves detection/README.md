@@ -7,14 +7,14 @@ Img 1: First step of algorithm - bandpass filtering
 [![IMG1](./images/img1.png)]
 
 Img 2: Next step is local maxima detection based on SWD.  
-[![IMG 2](/images/img2.png)]((https://github.com/paniks/dedicated-medical-diagnostic-algorithms/tree/master/ABR%20waves%20detection/images/img2.png))
+[![IMG 2](./images/img2.png)]
 
 There are two importatnt information:
 1. I, III and V waves occur at least 1 ms after each other,
 2. delay of I, III and V waves grows with decrease of stimulation intensity.
 
 Img 3: Final results. 
-[![IMG 3](https://github.com/paniks/dedicated-medical-diagnostic-algorithms/tree/master/ABR%20waves%20detection/images/img3.png)]
+[![IMG 3](./images/img3.png)]
 
 ABR data:
 http://www.physionet.org/pn6/earndb/
