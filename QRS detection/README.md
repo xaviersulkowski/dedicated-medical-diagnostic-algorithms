@@ -20,7 +20,7 @@ Img 2: Pan Tompkins algorithm results on ECG signal
 For QRS on/offsets another SWD based algorithm where implemented. Characteristic points that can be selected from the points of intersection of the wavelet with the Y axis are three points located in the neighborhood of the R-wave, the preceding point and the following, points pointing to the Q and S waves. The R point is known from the previous step. The visual results of the algorithm below.
 
 Img 3: SWD on QRS complex 
-![IMG3](,/images/img3.png)
+![IMG3](./images/img3.png)
 
 Img 4: Algorithm results
 ![IMG4](./images/img4.png)
